@@ -135,3 +135,130 @@
 .image-transition {
     transition: background-image 0.5s ease-in-out;
   }
+
+
+@media only screen and (max-width: 1000px){
+
+    .logo img{
+        width: 126px;
+    }
+
+    .carousel-content h1{
+        font-size: 40px;
+    }
+    
+    .carousel-content h2{
+        font-size: 24px;
+    }
+    
+    .carousel-button button{
+        margin-top: 3%;
+        font-size: 18px;
+        line-height: 60px;
+        height: 60px;
+        padding: 0 43px;
+    }
+    
+    .carousel-arrows img{
+        width: 26px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+
+    .logo img{
+        width: 86px;
+    }
+
+    .carousel-content h1{
+        font-size: 34px;
+    }
+
+    .carousel-content{
+        margin-top: 13% !important;
+    }
+    
+    .carousel-content h2{
+        font-size: 20px;
+    }
+    
+    .carousel-button button{
+        margin-top: 6%;
+        font-size: 16px;
+        height: fit-content;
+        padding: 1px 30px 1px 30px;
+    }
+    
+    .carousel-arrows img{
+        width: 26px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .logo img{
+        width: 86px;
+    }
+
+    .carousel-content h1{
+        font-size: 26px;
+    }
+
+    .carousel-content{
+        width: 70vw !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 13% !important;
+    }
+    
+    .carousel-content h2{
+        font-size: 18px;
+    }
+    
+    .carousel-button button{
+        margin-top: 6%;
+        font-size: 14px;
+        height: fit-content;
+        padding: 1px 30px 1px 30px;
+    }
+    
+    .carousel-arrows img{
+        width: 26px;
+    }
+}
+
+@media only screen and (max-height: 630px){
+    
+    .carousel-content h1{
+        font-size: 20px;
+    }
+
+    .carousel-content h2{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-height: 550px){
+    
+    .carousel-content h1{
+        font-size: 16px;
+    }
+
+    .carousel-content h2{
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (max-height: 400px){
+    
+    .carousel-content h1{
+        font-size: 20px;
+    }
+
+    .carousel-content h2{
+        font-size: 14px;
+    }
+    
+}
+

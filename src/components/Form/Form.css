@@ -51,10 +51,12 @@ form div{
 }
 
 .prev-inps,.post-inps{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     gap: 30px;
     margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
 }
 
 .yes-no{
@@ -67,11 +69,12 @@ form div{
     bottom: 0;
 }
 
-.application-form-inputs{
+.application-form-inputs {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 20px;
     margin-left: 50px !important;
-    width: 100%;
+    width: 70vw;
     margin: 0;
     position: relative;
 }
@@ -115,4 +118,35 @@ button{
 
 button:hover{
     background-position: left;
+}
+
+@media only screen and (max-width: 800px){
+    .application-title h1{
+        font-size: 30px;
+    }
+    
+    .application-title h2{
+        font-size: 16px;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 600px){
+    .application-title h1{
+        font-size: 30px;
+    }
+    
+    .application-title h2{
+        font-size: 14px;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    input,select,textarea{
+        width: 200px !important;
+    }
 }

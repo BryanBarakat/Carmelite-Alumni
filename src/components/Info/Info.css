@@ -48,3 +48,33 @@ span:nth-of-type(1){
 .writer-info{
     margin-top: 5%;
 }
+
+@media only screen and (max-width: 800px){
+    .container-info .info-title{
+        font-size: 16px !important;
+    }
+    
+    .container-info .info-content{
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .container-info .info-title{
+        font-size: 15px !important;
+    }
+    
+    .container-info .info-content{
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .container-info .info-title{
+        font-size: 14px !important;
+    }
+    
+    .container-info .info-content{
+        font-size: 12px !important;
+    }
+}
