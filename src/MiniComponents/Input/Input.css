@@ -1,0 +1,37 @@
+.input-reusable{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.4px solid #CFD7DC;
+    font-family: "Cairo",sans-serif;
+}
+
+input{
+    font-family: "Cairo",sans-serif !important;
+}
+
+.select-reusable{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.4px solid #CFD7DC;
+    font-family: "Cairo",sans-serif;
+}
+
+.textarea-reusable{
+    font-family: "Cairo",sans-serif;
+    border: 1.4px solid #CFD7DC;
+}
+
+label{
+    width: 250px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+}

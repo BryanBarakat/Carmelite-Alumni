@@ -1,0 +1,50 @@
+.container-info{
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: "Cairo",sans-serif;
+    transition: all 500ms ease-in;
+    opacity: 0;
+}
+
+.container-info .info1 .info-title{
+    font-size: 17px;
+}
+
+.container-info .info1 .info-content{
+    font-size: 14px;
+}
+
+.info-title,.info-big-title{
+    font-weight: bold;
+}
+
+.info-content,span{
+    color: #666666;
+}
+
+span:nth-of-type(1){
+    font-weight: bold;
+}
+
+.info2{
+    margin-top: 6%;
+}
+
+.info-big-title{
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 36px;
+    color: #666666;
+}
+
+.info-content,.info-title{
+    text-align: right;
+}
+
+.writer-info{
+    margin-top: 5%;
+}

@@ -1,0 +1,118 @@
+.application-container{
+    background-color: #F8F4F0;
+    text-align: center;
+    font-family: "Cairo",sans-serif;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.application-title h1{
+    font-size: 36px;
+}
+
+.application-title h2{
+    font-size: 16px;
+}
+
+.application-title span{
+    color: #63282c;
+}
+
+.application-form{
+    width: 85vw;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+form div{
+    width: fit-content;
+    margin-top: 5%;
+}
+
+.personal-info{
+    width: 100%;
+}
+
+.application-form-title{
+    padding: 0 0 0 10px;
+    border-left: 6px solid #63282c;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+    font-size: 16px;
+    text-align: left;
+}
+
+.prev-inps,.post-inps{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.yes-no{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.fix-inp{
+    position: absolute;
+    bottom: 0;
+}
+
+.application-form-inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px !important;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+input{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+label{
+    text-align: left;
+    transition: all 300ms ease-in-out;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 1px solid #63282c;
+}
+
+button{
+    font-family: 'Cairo', sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 3%;
+    font-size: 16px;
+    padding: 8px 32px 8px 32px;
+    border-radius: 0;
+    position: relative;
+    z-index: 9;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 30px;
+    overflow: hidden;
+    background: linear-gradient(to left, #63282c 50%, black 50%) right;
+    background-size: 200% 100%;
+    transition:all 300ms ease;
+}
+
+button:hover{
+    background-position: left;
+}
